@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-28T13:52:10Z" name="Test Suite for Buildout" finished-at="2024-07-28T13:53:17Z" duration-ms="67743">
+    <groups>
+    </groups>
+    <test started-at="2024-07-28T13:52:10Z" name="Test Cases for Buildout" finished-at="2024-07-28T13:53:17Z" duration-ms="67743">
+      <class name="demo.TestCases">
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:demo.TestCases@17cdf2d0]" started-at="2024-07-28T19:22:10Z" name="startBrowser" finished-at="2024-07-28T19:22:13Z" duration-ms="2973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method signature="testCase01()[pri:0, instance:demo.TestCases@17cdf2d0]" started-at="2024-07-28T19:22:13Z" name="testCase01" description="Go to YouTube.com and Assert you are on the correct URL. Click on&quot;About&quot; at the bottom of the sidebar, and print the message on the screen." finished-at="2024-07-28T19:22:25Z" duration-ms="12479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase01 -->
+        <test-method signature="testCase02()[pri:1, instance:demo.TestCases@17cdf2d0]" started-at="2024-07-28T19:22:25Z" name="testCase02" description="Go to the &quot;Films&quot; tab and in the â€œTopSellingâ€�section,scroll to the extreme right.Apply a Soft Assert on whether the movie is markedâ€œAâ€�for Mature or not.Apply a Soft assert on whether the movie is eitherâ€œComedyâ€�orâ€œAnimationâ€�." finished-at="2024-07-28T19:22:33Z" duration-ms="8085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase02 -->
+        <test-method signature="testCase03()[pri:2, instance:demo.TestCases@17cdf2d0]" started-at="2024-07-28T19:22:33Z" name="testCase03" description="Go to the &quot;Music&quot; tab and in the 1stsection,scroll to the extreme right.Print the name of the playlist. Soft Assert on whether the number of tracks listed is less than or equal to 50." finished-at="2024-07-28T19:22:41Z" duration-ms="8176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase03 -->
+        <test-method signature="testCase04()[pri:3, instance:demo.TestCases@17cdf2d0]" started-at="2024-07-28T19:22:41Z" name="testCase04" description="Go to the &quot;News&quot; tab and print the titleand body of the 1 st 3â€œ Latest News Postsâ€� along with the sum of the number of likes on all 3 of them.No likes given means 0." finished-at="2024-07-28T19:22:52Z" duration-ms="10720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase04 -->
+        <test-method signature="testCase05()[pri:4, instance:demo.TestCases@17cdf2d0]" started-at="2024-07-28T19:22:52Z" name="testCase05" description="Search for each of the items given in the stubs: src/test/resources/data.xlsx, and keep scrolling till the sum of each videoâ€™s views reach 10 Cr." finished-at="2024-07-28T19:23:16Z" duration-ms="23888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase05 -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:demo.TestCases@17cdf2d0]" started-at="2024-07-28T19:23:16Z" name="endTest" finished-at="2024-07-28T19:23:17Z" duration-ms="1400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- demo.TestCases -->
+    </test> <!-- Test Cases for Buildout -->
+  </suite> <!-- Test Suite for Buildout -->
+</testng-results>
